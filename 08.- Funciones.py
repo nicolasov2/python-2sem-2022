@@ -6,7 +6,7 @@ def holaMundo():
 # holaMundo()
 
 # Refactorizando Convertidor de moneda
-def conversor_moneda(moneda, valor_dolar):
+def conversor_moneda(moneda, valor_dolar = 900):
     pesos = int(input("Ingrese pesos " + moneda + ": "))
     dolares = pesos / valor_dolar
     dolares = round(dolares, 2)
